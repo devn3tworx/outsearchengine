@@ -70,7 +70,7 @@ export default function Home() {
               <div className="text-gray-300 text-lg">Daily Outreach Calls</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-6xl font-bold text-emerald mb-2">75%</div>
+              <div className="text-4xl md:text-6xl font-bold text-emerald mb-2">30%</div>
               <div className="text-gray-300 text-lg">Contact Rate</div>
             </div>
             <div className="text-center">
