@@ -9,8 +9,8 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: "Meeting Machine™ - Automate Your Outreach & Generate Meetings",
-  description: "Transform your B2B sales with automated lead discovery, cold email campaigns, LinkedIn outreach, and meeting booking. Powered by N3tworx.",
+  title: "Outreach Engine™ - AI Voice Agents for Automated Lead Qualification",
+  description: "Transform cold databases into qualified appointments with AI voice agents. Automated calling, intelligent qualification, and direct calendar booking - handling 100+ prospects daily.",
 };
 
 export default function RootLayout({ children }) {
