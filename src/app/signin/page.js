@@ -21,7 +21,7 @@ export default function AuthPage() {
   // Redirect if already authenticated
   useEffect(() => {
     if (user) {
-      window.location.href = 'https://fine-tuner.ai/portal/';
+      window.location.href = 'https://growthos.n3tworx.io/';
     }
   }, [user, router]);
 
@@ -41,7 +41,7 @@ export default function AuthPage() {
       });
       
       if (result.success) {
-        window.location.href = 'https://fine-tuner.ai/portal/';
+        window.location.href = 'https://growthos.n3tworx.io/';
       }
     } else {
       const result = await signUp({
@@ -53,7 +53,7 @@ export default function AuthPage() {
       });
       
       if (result.success) {
-        window.location.href = 'https://fine-tuner.ai/portal/';
+        window.location.href = 'https://growthos.n3tworx.io/';
       }
     }
   };

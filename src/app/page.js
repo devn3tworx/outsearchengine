@@ -46,7 +46,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button 
-                onClick={() => user ? window.location.href = 'https://fine-tuner.ai/portal/' : openAuthModal('signup')}
+                onClick={() => user ? window.location.href = 'https://growthos.n3tworx.io/' : openAuthModal('signup')}
                 className="bg-emerald hover:bg-sage text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 {user ? 'Launch Campaign' : 'Launch Campaign'}

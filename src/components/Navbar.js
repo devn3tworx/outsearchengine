@@ -56,7 +56,7 @@ export default function Navbar({ page = 'home', onOpenAuthModal }) {
             {user ? (
               <>
                 {!isDashboard && (
-                  <a href="https://fine-tuner.ai/portal/" className="text-gray-300 hover:text-emerald transition-colors font-medium">
+                  <a href="https://growthos.n3tworx.io/" className="text-gray-300 hover:text-emerald transition-colors font-medium">
                     Dashboard
                   </a>
                 )}
@@ -146,7 +146,7 @@ export default function Navbar({ page = 'home', onOpenAuthModal }) {
                     </div>
                     {!isDashboard && (
                       <a 
-                        href="https://fine-tuner.ai/portal/" 
+                        href="https://growthos.n3tworx.io/" 
                         className="text-gray-300 hover:text-emerald block px-3 py-2 rounded-md text-base font-medium transition-colors"
                         onClick={() => setMobileMenuOpen(false)}
                       >
