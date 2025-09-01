@@ -34,7 +34,7 @@ export default function AuthModal({ isOpen, onClose, defaultMode = 'signin' }) {
       
       if (result.success) {
         onClose();
-        window.location.href = 'https://fine-tuner.ai/portal/';
+        window.location.href = 'https://growthos.n3tworx.io/';
         // Reset form
         setFormData({
           firstName: '',
@@ -55,7 +55,7 @@ export default function AuthModal({ isOpen, onClose, defaultMode = 'signin' }) {
       
       if (result.success) {
         onClose();
-        window.location.href = 'https://fine-tuner.ai/portal/';
+        window.location.href = 'https://growthos.n3tworx.io/';
         // Reset form
         setFormData({
           firstName: '',
